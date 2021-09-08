@@ -3,35 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pan Card Portal</title>
+
 </head>
 <body>
-	<table width="1200px" align="center">
+	<table width="1200px" align="center" >
 		<line1>
 			<tr align="center">
-				<td style="background: darkred;color: whitesmoke;"> 
+				<td style="background: darkred;color: whitesmoke;font-size: 15px;"> 
 					<label>Request for New Pan Card Or/And Changes Or Correction in PAN Data<br><label style="font-style: italic;">Fields marked with <label style="color: red;">*</label>(asterisk) are mandatory. To avoid mistake(s), please refer guidlines and instructions</label></label>
 				</td>
 			</tr>
 		</line1>
 	</table>
-	<table_1 style="margin-left: 100px;">
+	<table border="px" cellpadding="0px" cellspacing="0px" align="center" width="1200px">
 		<line1>
-			<tr>
+			<tr style="background: #FFFFCC;">
 				<td></td>
-				<td style="border: 2px;">
+				<td>
 					<label style="color: red;">*</label>
-					<label style="border: 200px;border-color: red;">Whether citizen of India</label>
+					<label style="padding-right: 100px;">Whether citizen of India</label>
+					<label>Yes<input type="radio" name="whether citizen of india"></label>
+					<label>No<input type="radio" name="whether citizen of india"></label>
+				</td>
+			</tr>
+			<tr style="background: #FFFFC2;">
+				<td></td>
+				<td>
+					<label style="color: red;">*</label>
+					<label>Permanent Account Number (PAN)</label>
+					<label><input type="text"></label>
+				</td>
+			</tr>
+			<tr style="background: #FFFFC2;">
+				<td><input type="checkbox"></td>
+				<td>
+					<label style="color: red;">*</label>
+					<label>1. Name</label>
+				</td>
+			</tr>
+			<tr style="background: #FFFFC2;">
+				<td></td>
+				<td>
+					<label style="padding-right: 20px; font-weight: bold;">Title</label>
+					<label style="padding-right: 10px;">Shri/Mr<input type="radio" name="Name"></label>
+					<label style="padding-right: 10px;">Smt./Mrs.<input type="radio" name="Name"></label>
+					<label style="padding-right: 10px;">Kumari/Ms<input type="radio" name="Name"></table>
 				</td>
 			</tr>
 		</line1>
-	</table_1>
-	<table>
-		<tr>
-			<td style="border: 20px;">hello<td>
-				<td style="border: 20px;">hello<td>
-					<td style="border: 20px;">hello<td>
-						<td style="border: 20px;">hello<td>
-		</tr>
 	</table>
 </body>
 </html>
